@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Slot-Lines-DAL\Slot-Lines-DAL.csproj" />
+  </ItemGroup>
+
 </Project>
