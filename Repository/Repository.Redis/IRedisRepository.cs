@@ -1,4 +1,7 @@
-﻿namespace Repository.Redis
+﻿using System;
+using System.Threading.Tasks;
+
+namespace Repository.Redis
 {
     public interface IRedisRepository
     {
