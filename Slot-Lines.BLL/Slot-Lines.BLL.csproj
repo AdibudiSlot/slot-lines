@@ -4,10 +4,11 @@
     <TargetFramework>net8.0</TargetFramework>
     <RootNamespace>Slot_Lines.BLL</RootNamespace>
     <ImplicitUsings>disable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Repository\Repository.Sql\Repository.Sql.csproj" />
     <ProjectReference Include="..\Slot-Lines-DAL\Slot-Lines-DAL.csproj" />
   </ItemGroup>
 
