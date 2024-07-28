@@ -17,7 +17,7 @@ namespace Slot_Lines.Controllers
         public async Task<GameStartInfoResponseModel> GetGameStartInfoAsync(GameStartInfoModel gameInitialState)
         {
             //TODO Validate Game And Partner
-            //And Get Limits
+            //And Get  
             // Last Spin
             // Balance
             return  new GameStartInfoResponseModel
