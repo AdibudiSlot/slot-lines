@@ -20,13 +20,9 @@ namespace Slot_Lines.Controllers
             //And Get  
             // Last Spin
             // Balance
-            return  new GameStartInfoResponseModel
-            {
-                Balance = 10000,
-                Currency = "USD",
-                ErrorCode = ValidationType.Success,
-                Stakes = new decimal[] { 1, 2, 3, 4, 5, 10, 20, 30, 40, 50 }
-            };
+            var gameStartInfo = await _gameService.GetGameStartInfoAsync(gameInitialState);
+
+            return gameStartInfo;
         }
         public async Task<DoSpinResponceModel> SpinActionAsync(DoSpinModel doSpin)
         {
