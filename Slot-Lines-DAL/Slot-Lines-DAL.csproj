@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Repository\Repository.Redis\Repository.Redis.csproj" />
     <ProjectReference Include="..\Slot-Lines.Core\Slot-Lines.Core.csproj" />
   </ItemGroup>
 
